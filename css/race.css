@@ -1,0 +1,77 @@
+﻿strong {
+    color: #444444;
+}
+
+#raceImagesCarousel {
+    overflow: hidden;
+    margin-top: 20px;
+    width: 359px;
+}
+
+.blockHeading {
+    padding: 5px 0;
+    background-color: #175A9F;
+    color: #fff;
+    font-weight: 400;
+}
+
+.panel-info {
+    border-color: #175A9F;
+}
+
+    .panel-info > .panel-heading {
+        background-color: #175A9F;
+        border-color: #175A9F;
+        color: #fff;
+    }
+
+.faqs {
+    padding: 20px;
+}
+
+    .faqs dt {
+        background: url("/Images/plust.png") no-repeat scroll 0 4px rgba(0, 0, 0, 0);
+        padding: 3px 0 10px 30px;
+        position: relative;
+        /*font-weight:normal*/
+    }
+
+    .faqs dd {
+        padding: 0 0 5px 30px;
+        position: relative;
+    }
+
+    .faqs dt:hover {
+        cursor: pointer;
+        color: #175A9F;
+    }
+
+.bigtext {
+    font-size: 23px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+
+.topspace20 {
+    margin-top: 20px !important;
+}
+
+.nav-tabs .dropdown-menu li a {
+    border-left: 3px solid #175A9F;
+    border-right: 3px solid #175A9F;
+    color: #175A9F;
+}
+
+    .nav-tabs .dropdown-menu li a:hover {
+        border-left: 3px solid #175A9F;
+        border-right: 3px solid #175A9F;
+        color: #fff;
+        background-color: #175A9F;
+    }
+
+.nav-tabs .dropdown-menu li.active a {
+    border-left: 3px solid #175A9F;
+    border-right: 3px solid #175A9F;
+    color: #fff;
+    background-color: #175A9F;
+}

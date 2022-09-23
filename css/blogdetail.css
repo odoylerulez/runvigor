@@ -1,0 +1,55 @@
+﻿.blog {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.blogtitle {
+    text-transform: uppercase;
+    color: #d41414;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.postinfo {
+    color: #777;
+    padding-bottom: 20px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+a {
+    color: #d41414;
+}
+
+    a:hover, a:focus {
+        color: #444;
+    }
+
+.calender {
+    border: solid 2px #444;
+    width: 60px;
+    text-align: center;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.year {
+    background-color: #444;
+    color: #fff;
+    padding: 2px;
+    font-size: 13px;
+}
+
+.month {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 2px;
+}
+
+hr {
+    border-color: #777;
+}

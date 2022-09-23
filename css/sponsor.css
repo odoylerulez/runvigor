@@ -1,0 +1,28 @@
+﻿.smalltitle .colortext {
+    color: #D41414;
+    padding-right: 0;
+}
+
+.smalltitle {
+    text-align: center;
+}
+
+#sponsor {
+    background-image: url(/Images/flag.jpg);
+}
+
+    #sponsor > div {
+        padding: 20px;
+        padding-top: 5px;
+        background: none repeat scroll 0 0 rgba(79, 79, 79, 0.7) !important;
+        color: #fff;
+    }
+
+#thanks {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
