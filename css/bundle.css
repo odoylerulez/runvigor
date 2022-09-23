@@ -7,8 +7,8 @@
     font-style: normal;
     font-weight: normal;
     font-weight: 400;
-    src: url('/fonts/OpenSans-Regular-webfont.eot');
-    src: url('/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('/fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular-webfont.woff') format('woff'), url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
 }
 
 /* Italic */
@@ -18,8 +18,8 @@
     font-style: italic;
     font-weight: normal;
     font-weight: 400;
-    src: url('/fonts/OpenSans-Italic-webfont.eot');
-    src: url('/fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Italic-webfont.woff') format('woff'), url('/fonts/OpenSans-Italic-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    src: url('../fonts/OpenSans-Italic-webfont.eot');
+    src: url('../fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Italic-webfont.woff') format('woff'), url('../fonts/OpenSans-Italic-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
 }
 
 /* Light */
@@ -28,8 +28,8 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 200;
-    src: url('/fonts/OpenSans-Light-webfont.eot');
-    src: url('/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Light-webfont.woff') format('woff'), url('/fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light-webfont.woff') format('woff'), url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
 }
 
 /* Light Italic */
@@ -38,8 +38,8 @@
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 200;
-    src: url('/fonts/OpenSans-LightItalic-webfont.eot');
-    src: url('/fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-LightItalic-webfont.woff') format('woff'), url('/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'), url('/fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff'), url('../fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'), url('../fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
 }
 
 /* Semibold */
@@ -48,8 +48,8 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 500;
-    src: url('/fonts/OpenSans-Semibold-webfont.eot');
-    src: url('/fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('/fonts/OpenSans-Semibold-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
 }
 
 /* Semibold Italic */
@@ -58,8 +58,8 @@
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 500;
-    src: url('/fonts/OpenSans-SemiboldItalic-webfont.eot');
-    src: url('/fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'), url('/fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'), url('/fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'), url('../fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'), url('../fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
 }
 
 /* Bold */
@@ -69,8 +69,8 @@
     font-style: normal;
     font-weight: bold;
     font-weight: 700;
-    src: url('/fonts/OpenSans-Bold-webfont.eot');
-    src: url('/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Bold-webfont.woff') format('woff'), url('/fonts/OpenSans-Bold-webfont.ttf') format('truetype'), url('/fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Bold-webfont.woff') format('woff'), url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
 }
 
 /* Bold Italic */
@@ -80,8 +80,8 @@
     font-style: italic;
     font-weight: bold;
     font-weight: 700;
-    src: url('/fonts/OpenSans-BoldItalic-webfont.eot');
-    src: url('/fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-BoldItalic-webfont.woff') format('woff'), url('/fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'), url('/fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-BoldItalic-webfont.woff') format('woff'), url('../fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'), url('../fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
 }
 
 /* Extra Bold */
@@ -90,8 +90,8 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 900;
-    src: url('/fonts/OpenSans-ExtraBold-webfont.eot');
-    src: url('/fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-ExtraBold-webfont.woff') format('woff'), url('/fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'), url('/fonts/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-ExtraBold-webfont.woff') format('woff'), url('../fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'), url('../fonts/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
 }
 
 /* Extra Bold Italic */
@@ -100,8 +100,8 @@
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 900;
-    src: url('/fonts/OpenSans-ExtraBoldItalic-webfont.eot');
-    src: url('/fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'), url('/fonts/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'), url('/fonts/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic') format('svg');
+    src: url('../fonts/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'), url('../fonts/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'), url('../fonts/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic') format('svg');
 }
 /*!
  * Bootstrap v3.4.1 (https://getbootstrap.com/)
@@ -3934,7 +3934,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #ccc;
-  content: "/\00a0";
+  content: "../\00a0";
 }
 .breadcrumb > .active {
   color: #777777;
@@ -4802,8 +4802,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -7346,7 +7346,7 @@ body {
 }
 
 .horizontalRule {
-    background: url("/images/horizontalRule.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("../images/horizontalRule.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
     height: 20px;
     margin-bottom: 20px;
 }
@@ -7646,7 +7646,7 @@ span.sponsorPrev, span.sponsorNext {
     padding-top: 60px;
     padding-bottom: 40px;
     background-color: #222;
-    background-image: url("/images/bgfooter.jpg");
+    background-image: url("../images/bgfooter.jpg");
     -moz-background-size: cover !important;
     -ms-background-size: cover !important;
     -o-background-size: cover !important;
