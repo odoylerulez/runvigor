@@ -306,7 +306,8 @@
 </div>
 <script src="/js/bundle.min.js"></script>
 
-
+<!-- original -->
+<!-- 
 <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-15645483-3']);
@@ -353,7 +354,33 @@
             }
         });
     }
-</script>
+</script> -->
 
+<!-- new -->
+
+<!-- new -->
+ <!-- google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-DKTSFXGS01"></script>
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+ 
+   gtag('config', 'G-DKTSFXGS01');
+ </script>
+     <script>
+         /**
+         * Function that tracks a click on an outbound link in Analytics.
+         * This function takes a valid URL string as an argument, and uses that URL string
+         * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+         * using 'navigator.sendBeacon' in browser that support it.
+         */
+         var trackOutboundLink = function (url) {
+             ga('send', 'event', 'outbound', 'click', url, {
+                 'transport': 'beacon',
+                 'hitCallback': function () { document.location = url; }
+             });
+         }
+     </script>
 </body>
 </html>
