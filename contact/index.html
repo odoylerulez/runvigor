@@ -150,12 +150,13 @@
         <h3>Contact Info</h3>
         <p>
         <dl class="dl-horizontal">
+            <dt><i class="fa fa-envelope fa-fw"></i> RunVigor Event Management Team</dt>
             <dt><i class="fa fa-envelope fa-fw"></i> Email:</dt>
-            <dd><a href="mailto:hello@vigorutah.com">hello@vigorutah.com</a></dd>
+            <dd><a href="mailto:race@triutah.com">race@triutah.com</a></dd>
             <dt><i class="fa fa-phone fa-fw"></i> Phone:</dt>
-            <dd>(801) 556-5184 (Mark)</dd>
+            <!-- <dd>(801) 556-5184 (Mark)</dd>
             <dt>&nbsp;</dt>
-            <dd>(801) 556-1547 (Kasey)</dd>
+            <dd>(801) 556-1547 (Kasey)</dd> -->
         </dl>
         </p>
     </div>
@@ -164,14 +165,17 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6">
-                <img src="/images/logos/globalendurancered.png" style="margin-top: 13px; margin-bottom: 11px;">
-                <p>Global Endurance is the parent company of Run Vigor.</p>
+                <!-- <img src="./images/logos/globalendurancered.png" style="margin-top: 13px; margin-bottom: 11px;"> -->
+                <h3 class="title"><span class="text-primary">T</span><span class="font100">riUtah</span>
+                </h3>
+                <p>TriUtah is the parent company of Run Vigor.</p>
             </div>
             <div class="col-md-4 col-sm-6">
                 <h3 class="title"><span class="text-primary">C</span>onnect <span class="font100">With Us</span></h3>
                 <p>
                     Get training tips and race updates in your email, and connect with us on social media.
                 </p>
+                <!-- moosend form -->
                 <form action="https://app.moosend.com/subscribe/fcc7e478-e2a2-42a7-9336-6ff433937af2" method="post"
                       id="ms-sub-form" target="_blank">
                     <div class="input-group">
@@ -337,7 +341,8 @@
 </div>
 <script src="/js/bundle.min.js"></script>
 
-
+<!-- original -->
+ <!--
 <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-15645483-3']);
@@ -384,7 +389,31 @@
             }
         });
     }
-</script>
+</script> -->
 
+<!-- new -->
+ <!-- google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DKTSFXGS01"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DKTSFXGS01');
+</script>
+    <script>
+        /**
+        * Function that tracks a click on an outbound link in Analytics.
+        * This function takes a valid URL string as an argument, and uses that URL string
+        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+        * using 'navigator.sendBeacon' in browser that support it.
+        */
+        var trackOutboundLink = function (url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+                'transport': 'beacon',
+                'hitCallback': function () { document.location = url; }
+            });
+        }
+    </script>
 </body>
 </html>
